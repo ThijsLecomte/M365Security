@@ -1,4 +1,4 @@
-Install-Module Install-Module -Name Microsoft.PowerApps.Administration.PowerShell
+Install-Module -Name Microsoft.PowerApps.Administration.PowerShell
 Connect-AzureAD
 
 $flows = Get-AdminFlow
